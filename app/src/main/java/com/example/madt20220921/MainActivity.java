@@ -21,12 +21,6 @@ public class MainActivity extends AppCompatActivity {
     {
         tv = (TextView)findViewById(R.id.textView);
         tv.setText("Welcome to android");
-        //tv.setTextColor(Color.rgb(200,0,0));
-
-    }
-    public void onBtnChangeTextColorClick(View v)
-    {
-        tv = (TextView)findViewById(R.id.textView);
         tv.setTextColor(Color.rgb(200,0,0));
 
     }
